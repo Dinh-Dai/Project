@@ -1,4 +1,4 @@
-from lib.ham_ho_tro import xoa_file, xoa_thu_muc, tao_thu_muc
+from lib.ham_ho_tro import xoa_file, xoa_thu_muc, tao_thu_muc , xoa
 import os
 
 xoa_file('data/data1/init.txt')
@@ -14,5 +14,7 @@ os.system('git branch -M main')
 os.system('git remote add intro_AI https://github.com/Huutkang/share.git')
 os.system('git pull intro_AI main')
 
+
+xoa()
 
 
