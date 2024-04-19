@@ -15,5 +15,3 @@ os.system('git remote add intro_AI https://github.com/Huutkang/share.git')
 os.system('git pull intro_AI main')
 
 xoa()
-
-os.system('code share/synchronized.py')
